@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cash and Cash Equivalents Reviewer</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <h1 style="margin-bottom: 32px;">Intermediate Accounting 1 (Vhinson Garcia) Exercises</h1>
+  <div class="card" id="homepage-card" style="padding-bottom: 32px;">
+    <h2 style="margin-bottom: 20px;">Select a Chapter</h2>
+    <div style="display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 24px;">
+  <button style="flex: 1 1 220px; min-width: 220px;" onclick="chooseChapter('chapter1')">Chapter 1<br><span style='font-size:0.95em;'>Cash and Cash Equivalents</span></button>
+  <!-- Add more chapters as needed -->
+    </div>
+    <div id="type-select" style="display:none; margin-top:20px;">
+      <h2 style="margin-bottom: 16px;">Select Question Type</h2>
+      <div style="display: flex; gap: 16px; flex-wrap: wrap;">
+        <button style="flex: 1 1 180px; min-width: 180px;" onclick="startQuiz('true_false')">True or False</button>
+        <button style="flex: 1 1 180px; min-width: 180px;" onclick="startQuiz('multiple_choice')">Multiple Choice</button>
+        <button style="flex: 1 1 180px; min-width: 180px;" onclick="startQuiz('problems')">Straight Problems</button>
+      </div>
+    </div>
+  </div>
+
+  <form class="card" id="quiz-card" style="display:none; padding-bottom: 32px;">
+    <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px;">
+      <button type="button" onclick="restartReviewer()" style="margin-right: 12px;">Back</button>
+      <h2 id="quiz-title" style="margin: 0;">Quiz</h2>
+      <span style="flex:1"></span>
+    </div>
+    <div id="quiz-questions" style="margin-bottom: 24px;"></div>
+    <button type="button" onclick="submitAnswers()" style="margin-top: 12px;">Submit Answers</button>
+  </form>
+
+  <div class="card" id="score-card" style="display:none; padding-bottom: 32px;">
+    <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px;">
+      <button onclick="restartReviewer()" style="margin-right: 12px;">Back</button>
+      <h2 style="margin: 0;">Score</h2>
+      <span style="flex:1"></span>
+    </div>
+    <p class="score" style="margin-bottom: 24px;">Your Score: <span id="score">0</span></p>
+    <div id="score-summary"></div>
+  </div>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>

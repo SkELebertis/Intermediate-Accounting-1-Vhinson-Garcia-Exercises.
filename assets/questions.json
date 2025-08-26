@@ -1,0 +1,174 @@
+{
+  "chapter1": {
+    "title": "Cash and Cash Equivalents",
+    "true_false": [
+      { "question": "Cash is the most liquid asset in the statement of financial position.", "answer": true },
+      { "question": "Customer's checks are generally excluded in the cash balance since these do not represent actual cash.", "answer": false },
+    { "question": "Customer’s checks are generally excluded in the cash balance since these do not represent actual cash.", "answer": false },
+    { "question": "The cash balance includes coins and currencies but not demand deposits nor savings deposits.", "answer": false },
+    { "question": "Postdated checks are dated after the reporting date.", "answer": true },
+    { "question": "Cash denominated in foreign currency is translated at the exchange rate as of the date the cash was received.", "answer": false },
+    { "question": "Postdated customer's checks shall not be included in the cash balance.", "answer": true },
+    { "question": "Postdated supplier’s checks shall be included in the cash in bank balance.", "answer": true },
+    { "question": "The amount of unreleased supplier's checks shall still be included in the accounts payable balance.", "answer": true },
+    { "question": "Postdated customer's checks shall not be included in the accounts receivable balance.", "answer": false },
+    { "question": "Cash in bank shall not be included in the cash balance since the actual amount of cash is not in the possession of the entity.", "answer": false },
+    { "question": "Unlike demand and savings deposits, time deposits are reported as part of cash equivalents if certain conditions were met.", "answer": true },
+    { "question": "Cash funds, regardless of their purpose, are always included in the cash balance since they represent actual amounts of cash.", "answer": false },
+    { "question": "Cash set aside for the acquisition of a land shall be excluded from the cash balance.", "answer": true },
+    { "question": "Investments in the ordinary shares of another entity may be classified as cash equivalent, provided these were acquired three months before the expected date of sale.", "answer": false },
+    { "question": "Investments in the redeemable preference shares of another entity may be classified as cash equivalent, provided these were acquired three months before the maturity date.", "answer": true },
+    { "question": "Generally, the original term of an investment is not relevant in determining whether it can be classified as cash equivalent or not.", "answer": true },
+    { "question": "By their very nature, cash equivalents are not cash per se, but owing to their high level of liquidity, they are considered as 'equivalents to cash'.", "answer": true },
+    { "question": "To be classified as cash equivalents, the original term of the investment shall not exceed six months.", "answer": false },
+    { "question": "Cryptocurrencies can be considered as cash since some people or entities accept them as a mode of payment.", "answer": false },
+    { "question": "Amounts maintained in online payment platforms (e.g., online banking apps) are not considered as cash.", "answer": false },
+    { "question": "Generally, bank overdrafts are reported as current liabilities.", "answer": true },
+    { "question": "On December 10, 2023, an entity received a customer check dated December 28, 2023. This check shall be excluded in the cash balance as of December 31, 2023 since it was post-dated when originally received.", "answer": false },
+    { "question": "On December 10, 2023, an entity received a customer check dated January 5, 2024. This check shall be excluded in the cash balance as of December 31, 2023 since it was post-dated as of that date.", "answer": true },
+    { "question": "If a customer’s check in the possession of the entity becomes stale, it shall be excluded from the cash balance and included in the accounts receivable balance.", "answer": true },
+    { "question": "An entity invested its excess funds to a treasury bill with an original term of one year but with 2 months left before its maturity. This investment cannot be considered as cash equivalent.", "answer": false }
+  ],
+  "multiple_choice": [
+  {
+    "question": "Given the following items, which of them is/are included in the total cash balance? I. Post-dated customer check II. Post-dated supplier check",
+    "choices": ["a. I only", "b. II only", "c. Both I and II", "d. Neither I nor II"],
+    "answer": "b"
+  },
+  {
+    "question": "The following may be included in the cash balance, except",
+    "choices": ["a. Foreign currency", "b. Coins", "c. Deposit maintained in a closed bank", "d. Check from customer"],
+    "answer": "c"
+  },
+  {
+    "question": "Upon the receipt of a post-dated check from a customer, an entity shall do which of the following?",
+    "choices": ["a. Reduce the accounts receivable from the customer", "b. Increase the cash on hand balance", "c. Record revenue equal to the amount of the check", "d. Do not record the check"],
+    "answer": "d"
+  },
+  {
+    "question": "The following checks received shall be included in the cash balance, except",
+    "choices": ["a. Checkmate", "b. Customer’s check", "c. Traveler’s check", "d. Manager’s check"],
+    "answer": "a"
+  },
+  {
+    "question": "TULIP Company gave a check to LILY Company for the services performed by the latter. The check indicated that LILY Company shall encash the check in BDI Bank. Based on this information, which of the following is incorrect?",
+    "choices": ["a. TULIP Company is the maker of the check", "b. LILY Company is the payee", "c. BDI Bank is the drawee", "d. None of the above"],
+    "answer": "d"
+  },
+  {
+    "question": "Few days before the reporting date, an entity made and recorded a check dated in the succeeding period to one of its suppliers. In this case, the entity shall",
+    "choices": ["a. Add back the amount of the check to the accounts receivable balance", "b. Deduct the amount of the check from the accounts payable balance", "c. Add back the amount of the check to the cash in bank balance", "d. Do nothing"],
+    "answer": "c"
+  },
+  {
+    "question": "An entity made and recorded a check that is dated before the reporting date. In this case, the entity shall",
+    "choices": ["a. Add back the amount of the check to the accounts receivable balance", "b. Deduct the amount of the check from the accounts payable balance", "c. Add back the amount of the check to the cash in bank balance", "d. Do nothing"],
+    "answer": "d"
+  },
+  {
+    "question": "Gift certificates shall be reported as",
+    "choices": ["a. Part of cash and cash equivalents since these can be used to purchase limited selection of goods or services", "b. Part of prepayments", "c. Either a or b depending on the entity's accounting policy", "d. Half cash and cash equivalent, half prepayments"],
+    "answer": "b"
+  },
+  {
+    "question": "At the end of 2023, an entity had US dollars in its cash on hand. In this case, the amount in US dollars shall be",
+    "choices": ["a. Translated using the exchange rate on the date of entity's receipt", "b. Translated using the exchange rate on the reporting date", "c. Translated using whichever rate is higher", "d. Translated using whichever rate is lower"],
+    "answer": "b"
+  },
+  {
+    "question": "As of December 31, 2023, an entity reported ₱800,000 positive balance in its checking account no. 1 in Buko Bank and ₱500,000 overdraft in its checking account no. 2 in the same bank. Which of the following correctly states the required reporting of these amounts?",
+    "choices": ["a. ₱800,000 positive balance – cash & cash equivalents; ₱500,000 overdraft – current liability", "b. ₱500,000 overdraft – cash & cash equivalents; ₱800,000 positive balance – current liability", "c. Net amount of ₱300,000 as part of cash & cash equivalents", "d. Net amount of ₱300,000 as current liability"],
+    "answer": "c"
+  },
+  {
+    "question": "As of December 31, 2023, an entity reported ₱700,000 positive balance in its checking account no. 1 in Buko Bank and ₱450,000 overdraft in its checking account no. 1 in Atis Bank. Which of the following correctly states the required reporting of these amounts?",
+    "choices": ["a. ₱700,000 positive balance – cash & cash equivalents; ₱450,000 overdraft – current liability", "b. ₱450,000 overdraft – cash & cash equivalents; ₱700,000 positive balance – current liability", "c. Net amount of ₱250,000 as part of cash & cash equivalents", "d. Net amount of ₱250,000 as current liability"],
+    "answer": "a"
+  },
+  {
+    "question": "Same as Question 11, but assume overdraft amount is part of the entity’s cash management. Which of the following is correct?",
+    "choices": ["a. ₱700,000 positive balance – cash & cash equivalents; ₱450,000 overdraft – current liability", "b. ₱450,000 overdraft – cash & cash equivalents; ₱700,000 positive balance – current liability", "c. Net amount of ₱250,000 as part of cash & cash equivalents", "d. Net amount of ₱250,000 as current liability"],
+    "answer": "c"
+  },
+  {
+    "question": "An entity reported the following deposits with a bank: I. Savings deposit set aside for the future purchase of building II. Demand deposit from which the payroll of its employees is deducted. Which of these is/are includible in the cash balance?",
+    "choices": ["a. I only", "b. II only", "c. Both I and II", "d. Neither I nor II"],
+    "answer": "b"
+  },
+  {
+    "question": "Generally, which of the following is not a characteristic of cash and cash equivalents?",
+    "choices": ["a. Generally unrestricted as to use", "b. Measured at their fair values", "c. May include items in addition to coins and currencies on hand", "d. Most liquid among all the assets of an entity"],
+    "answer": "b"
+  },
+  {
+    "question": "The following items are generally considered as part of cash, except",
+    "choices": ["a. Gift certificates purchased with no expiry date", "b. Foreign currency on hand", "c. Customer's check", "d. Money order"],
+    "answer": "a"
+  },
+  {
+    "question": "All of these items should not form part of an entity’s cash, except",
+    "choices": ["a. An I.O.U. from an entity’s finance officer", "b. Advances to employees", "c. Traveler’s check", "d. Petty cash vouchers"],
+    "answer": "c"
+  },
+  {
+    "question": "A deposit in a closed bank should be classified as",
+    "choices": ["a. Part of cash and cash equivalents at its net realizable value", "b. Part of other assets at its net realizable value", "c. Either cash & cash equivalents or other assets depending on entity’s policy", "d. Neither cash & cash equivalents nor other assets"],
+    "answer": "b"
+  },
+  {
+    "question": "Post-dated checks received from customers should",
+    "choices": ["a. Be excluded from the cash balance", "b. Be included in other assets balance", "c. Be deducted from accounts receivable balance", "d. Be deducted from accounts payable balance"],
+    "answer": "a"
+  },
+  {
+    "question": "The three-month rule for cash equivalents shall be counted from ______ until its maturity date.",
+    "choices": ["a. The original date of issuance of the related security", "b. The relevant reporting date", "c. The date of purchase of the related security", "d. The latest of the above dates"],
+    "answer": "c"
+  },
+  {
+    "question": "The following should form part of an entity’s cash, except for",
+    "choices": ["a. Customer check not yet encashed in the bank for the last 18 months", "b. Check issued dated January 25 of the next year", "c. Coins and currencies in petty cash fund", "d. Cash in bank"],
+    "answer": "a"
+  },
+  {
+    "question": "Generally, the following funds are part of cash, except for",
+    "choices": ["a. Fund earmarked for the purchase of warehouse", "b. Dividend fund", "c. Salary fund", "d. Tax fund"],
+    "answer": "a"
+  },
+  {
+    "question": "Which of the following items is considered as cash equivalent?",
+    "choices": ["a. Checking account in a bank", "b. Time deposit with remaining maturity of one year", "c. 10-year treasury bonds purchased two months before maturity date", "d. 5-year treasury bonds purchased five months before maturity date"],
+    "answer": "c"
+  },
+  {
+    "question": "All of the following are considered as cash equivalents, except",
+    "choices": ["a. Treasury bills with original term of one year but acquired three months before maturity date", "b. Redeemable preference shares with original term of four years but acquired two months before maturity", "c. Investment in ordinary shares of another entity expected to be sold within the next two weeks", "d. All of the above are considered as cash equivalents"],
+    "answer": "c"
+  },
+  {
+    "question": "The amount to be included in the cash balance on account of the petty cash fund shall include the following, except",
+    "choices": ["a. Coins", "b. Currencies", "c. Accommodation check that is dated on or before the reporting date", "d. All of the above are included in the cash balance on account of the petty cash fund"],
+    "answer": "d"
+  },
+  {
+    "question": "Petty cash fund may be used for any of the following, except",
+    "choices": ["a. Payment of outstanding purchases from suppliers", "b. Payment of transportation of the entity’s messengers", "c. Payment for snacks served to a client", "d. Payment for small items of office supplies"],
+    "answer": "a"
+  }
+],
+  "problems": [
+    {
+      "scenario": "PARALUMAN Company adjusting entries as of Dec. 31, 2023:",
+      "table": [
+        ["Cash", "190,000"],
+        ["Accounts payable", "190,000"],
+        ["Cash", "280,000"],
+        ["Accounts payable", "280,000"],
+        ["Accounts receivable", "360,000"],
+        ["Cash", "360,000"]
+      ],
+      "answer": "4710000"
+      }
+    ]
+  }
+}
