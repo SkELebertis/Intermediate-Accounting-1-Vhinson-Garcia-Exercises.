@@ -71,6 +71,34 @@ async function loadQuestions() {
   document.getElementById('type-select').style.display = 'none';
   document.getElementById('quiz-card').style.display = 'none';
   document.getElementById('score-card').style.display = 'none';
+  // render chapter buttons dynamically
+  const chaptersDiv = document.getElementById('chapters');
+  if (chaptersDiv && questionsData) {
+    chaptersDiv.innerHTML = '';
+    // render with numbering and restore last selected chapter if any
+    const keys = Object.keys(questionsData || {});
+    const last = localStorage.getItem('intacc:selectedChapter');
+    keys.forEach((key, idx) => {
+      const ch = questionsData[key];
+      const btn = document.createElement('button');
+      btn.className = 'chapter-btn';
+      btn.innerHTML = `<span class='chapter-badge'>${idx+1}</span><h4>${ch.title || key}</h4><p>${ch.subtitle || ''}</p>`;
+      btn.addEventListener('click', () => {
+        // remove active from siblings
+        document.querySelectorAll('.chapter-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        chooseChapter(key);
+        localStorage.setItem('intacc:selectedChapter', key);
+      });
+      chaptersDiv.appendChild(btn);
+      // restore active state
+      if (last && last === key) {
+        btn.classList.add('active');
+        selectedChapter = key;
+        document.getElementById('type-select').style.display = 'block';
+      }
+    });
+  }
 }
 
 function chooseChapter(chapterKey) {
@@ -85,6 +113,17 @@ function startQuiz(type) {
   document.getElementById('homepage-card').style.display = 'none';
   document.getElementById('score-card').style.display = 'none';
   document.getElementById('quiz-card').style.display = 'block';
+  // show chapter title in the quiz header
+  const chapter = questionsData[selectedChapter] || {};
+  const titleEl = document.getElementById('quiz-title');
+  const subEl = document.getElementById('quiz-subtitle');
+  titleEl.innerText = `${chapter.title || selectedChapter}`;
+  subEl.innerText = `${type === 'true_false' ? 'True or False' : type === 'multiple_choice' ? 'Multiple Choice: Theories' : type === 'multiple_choice_problems' ? 'Multiple Choice: Problems' : 'Straight Problems'}`;
+  // highlight active type button
+  document.querySelectorAll('.type-btn').forEach(btn => btn.classList.remove('active'));
+  const selectorLabel = type === 'true_false' ? 'True or False' : type === 'multiple_choice' ? 'Multiple Choice: Theories' : type === 'multiple_choice_problems' ? 'Multiple Choice: Problems' : 'Straight Problems';
+  const found = Array.from(document.querySelectorAll('.type-btn')).find(b => b.innerText.trim() === selectorLabel);
+  if (found) found.classList.add('active');
   renderQuestions();
 }
 
@@ -688,11 +727,13 @@ function showScoreSummary(questions) {
 
 function restartReviewer() {
   selectedType = null;
-  selectedChapter = null;
+  // preserve selected chapter
+  const last = localStorage.getItem('intacc:selectedChapter');
+  selectedChapter = last || selectedChapter;
   score = 0;
   userAnswers = [];
   document.getElementById('homepage-card').style.display = 'block';
-  document.getElementById('type-select').style.display = 'none';
+  document.getElementById('type-select').style.display = selectedChapter ? 'block' : 'none';
   document.getElementById('quiz-card').style.display = 'none';
   document.getElementById('score-card').style.display = 'none';
 }

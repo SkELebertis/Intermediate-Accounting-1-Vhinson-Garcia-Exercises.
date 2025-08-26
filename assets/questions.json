@@ -263,4 +263,192 @@
       }
     ]
   }
+  ,
+  "chapter2": {
+    "title": "Bank Reconciliation",
+    "true_false": [
+      { "question": "A deposit made by an entity will increase the bank’s deposit liability.", "answer": true },
+      { "question": "At the time a check was made by an entity, there is already a corresponding decrease in the bank’s deposit liability.", "answer": false },
+      { "question": "Utilities incurred by the entity that was directly paid by the bank is considered as a debit memo.", "answer": true },
+      { "question": "Granting of a loan by a bank to a depositor entity will increase the bank’s deposit liability to the entity.", "answer": true },
+      { "question": "The bank’s direct deduction of its maturing loan receivable from the depositor’s bank account is considered as a credit memo.", "answer": false },
+      { "question": "Bank service charge is considered as a bank-reconciling item.", "answer": false },
+      { "question": "A depositor entity’s note receivable that was collected by the bank is considered as a credit memo.", "answer": true },
+      { "question": "Defective customer checks are considered as book-reconciling item.", "answer": true },
+      { "question": "Outstanding checks are those already in the possession of the payees but are yet to be encashed in the drawee bank.", "answer": true },
+      { "question": "When determining the adjusted cash in bank balance, certified checks are deducted from the bank statement balance.", "answer": false },
+      { "question": "Deposits in transit are added to the bank statement balance.", "answer": true },
+      { "question": "Bank service charges are added to the book balance in determining the adjusted cash in bank balance.", "answer": false },
+      { "question": "In determining the adjusted cash in bank balance, customer's direct payments to the entity’s bank account are added to the bank statement balance.", "answer": false }
+    ],
+    "multiple_choice": [
+      {
+        "question": "When determining the outstanding checks,",
+        "choices": [
+          "a. the list of checks prepared by the entity shall be compared to the bank statement. The checks that cannot be traced to the bank statement are considered outstanding checks.",
+          "b. the list of checks prepared by the entity shall be compared to the bank statement. The checks that can be traced to the bank statement are considered outstanding checks.",
+          "c. the list of checks already paid by the bank shall be compared to the list of checks prepared by the entity. The paid checks that can be traced to the list of checks prepared by the entity are considered outstanding checks.",
+          "d. the list of checks already paid by the bank shall be compared to the list of checks prepared by the entity. The paid checks that cannot be traced to the list of checks prepared by the entity are considered outstanding checks."
+        ],
+        "answer": "a. the list of checks prepared by the entity shall be compared to the bank statement. The checks that cannot be traced to the bank statement are considered outstanding checks."
+      },
+      {
+        "question": "When determining the deposits in transit,",
+        "choices": [
+          "a. the list of deposits prepared by the entity shall be compared to the bank statement. The deposits that cannot be traced to the bank statement are considered deposits in transit.",
+          "b. the list of deposits prepared by the entity shall be compared to the bank statement. The deposits that can be traced to the bank statement are considered deposits in transit.",
+          "c. the list of deposits already recorded by the bank shall be compared to the list of deposits made by the entity. The deposits that can be traced to the list of deposits made by the entity are considered deposits in transit.",
+          "d. the list of deposits already recorded by the bank shall be compared to the list of deposits made by the entity. The deposits that cannot be traced to the list of deposits made by the entity are considered deposits in transit."
+        ],
+        "answer": "a. the list of deposits prepared by the entity shall be compared to the bank statement. The deposits that cannot be traced to the bank statement are considered deposits in transit."
+      },
+      {
+        "question": "The following are considered bank-reconciling items, except",
+        "choices": ["a. Deposits in transit","b. Outstanding checks","c. Bank service charge","d. Errors committed by the bank"],
+        "answer": "c. Bank service charge"
+      },
+      {
+        "question": "The following are considered bank-reconciling items, except",
+        "choices": ["a. Certified checks","b. Deposit of one depositor recorded to another depositor’s bank account","c. Check of one depositor recorded against another depositor’s bank account","d. Deposit of a depositor that was recorded half of the correct amount"],
+        "answer": "a. Certified checks"
+      },
+      {
+        "question": "Bank-reconciling items that have a net increasing effect to the bank statement balance to arrive at the adjusted cash in bank include the following, except",
+        "choices": ["a. Deposit in transit","b. Deposit of the entity but was recorded as the deposit of another entity","c. Check of P100,000 but was recorded by the bank as P1,000,000","d. Deposit of P50,000 but was recorded by the bank as P500,000"],
+        "answer": "d. Deposit of P50,000 but was recorded by the bank as P500,000"
+      },
+      {
+        "question": "Bank-reconciling items that have a net decreasing effect to the bank statement balance to arrive at the adjusted cash in bank include the following, except",
+        "choices": ["a. Check of P20,000 but was recorded by the bank as P200,000","b. Deposit of P40,000 but was recorded by the bank as P400,000","c. Check of the entity but was deducted from the account of another entity","d. Deposit of another entity but was recorded by the bank in the entity’s account"],
+        "answer": "a. Check of P20,000 but was recorded by the bank as P200,000"
+      },
+      {
+        "question": "Given the following statements below, determine which of them is/are true:\nI. Debit memos have already reduced the bank statement balance but not the book balance.\nII. Credit memos have already increased the book balance but not the bank statement balance.",
+        "choices": ["a. I only","b. II only","c. Both I and II","d. Neither I nor II"],
+        "answer": "a. I only"
+      },
+      {
+        "question": "Given the following statements below, determine which of them is/are considered as debit memo:\nI. Proceeds from the bank loan.\nII. Direct deduction of maturing bank loan.",
+        "choices": ["a. I only","b. II only","c. Both I and II","d. Neither I nor II"],
+        "answer": "b. II only"
+      },
+      {
+        "question": "The following are considered as credit memos, except",
+        "choices": ["a. Collections from account customers received directly by the entity","b. Collections from account customers who paid the entity’s partner bank","c. Proceeds from the bank loan","d. Net proceeds from a long outstanding customer note that was collected by the bank on behalf of the entity"],
+        "answer": "a. Collections from account customers received directly by the entity"
+      },
+      {
+        "question": "An inexperienced accountant proposed the following bank reconciliation procedures in determining the adjusted cash in bank balance:\nI. Debit memos are added to the book balance.\nII. Credit memos are deducted from the book balance.",
+        "choices": ["a. Only I is correct","b. Only II is correct","c. Both I and II are correct","d. Neither I nor II is correct"],
+        "answer": "d. Neither I nor II is correct"
+      },
+      {
+        "question": "In the absence of errors, which of the following is/are true?",
+        "choices": ["a. If the total amount of debit memos is higher than the total amount of credit memos, then book balance is higher than the adjusted cash in bank balance.","b. If the total amount of debit memos is lower than the total amount of credit memos, then book balance is higher than the adjusted cash in bank balance.","c. Either a or b","d. Neither a nor b"],
+        "answer": "a. If the total amount of debit memos is higher than the total amount of credit memos, then book balance is higher than the adjusted cash in bank balance."
+      },
+      {
+        "question": "Determine which of the items below is an example of a debit memo.",
+        "choices": ["a. Net proceeds collected by the bank from its depositor’s accounts receivable","b. Proceeds of a bank loan which directly increased the depositor’s bank account","c. Amounts paid by the bank on account of the depositor’s utilities as part of their agreement regarding the bank automatically paying the depositor’s expenses","d. Cash deposit of another depositor incorrectly added by the bank to another depositor’s account"],
+        "answer": "c. Amounts paid by the bank on account of the depositor’s utilities as part of their agreement regarding the bank automatically paying the depositor’s expenses"
+      },
+      {
+        "question": "The following are all debit memos, except",
+        "choices": ["a. NSF check","b. Bank service charge for the processing of the entity's checks","c. Service charge for the collection of the entity's note receivable","d. Amounts received from customers who paid directly to the bank"],
+        "answer": "d. Amounts received from customers who paid directly to the bank"
+      },
+      {
+        "question": "The following bank reconciliation procedures applying the adjusted balance method are correct, except",
+        "choices": ["a. Unadjusted book balance is generally obtained from the entity's ledger","b. Unadjusted bank balance is generally the ending balance in the bank statement","c. Deposits in transit are added to the unadjusted book balance","d. Credit memos are added to the unadjusted book balance"],
+        "answer": "c. Deposits in transit are added to the unadjusted book balance"
+      },
+      {
+        "question": "When using the book to bank method of bank reconciliation, which of the following procedures is not correct?",
+        "choices": ["a. Credit memos are deducted from the unadjusted book balance","b. Deposits in transit are deducted from the unadjusted book balance","c. Outstanding checks are added to the unadjusted book balance","d. Debit memos are deducted from the unadjusted book balance"],
+        "answer": "a. Credit memos are deducted from the unadjusted book balance"
+      }
+    ],
+    "multiple_choice_problems": [
+      {
+        "question": "As of January 31, 2023, JAYSON Company reported the following information in relation to its bank reconciliation:\nBank statement balance P3,400,000\nNSF check 250,000\nDeposit in transit 600,000\nProceeds from bank loan 1,500,000\nOutstanding check, including P70,000 certified checks 820,000\nAdjusted cash in bank balance shall be",
+        "choices": [
+          "a. P3,550,000",
+          "b. P3,250,000",
+          "c. P2,000,000",
+          "d. P3,180,000"
+        ],
+        "answer": "b. P3,250,000"
+      },
+      {
+        "question": "Unadjusted cash in bank balance per general ledger shall be",
+        "choices": ["a. P3,550,000","b. P3,250,000","c. P2,000,000","d. P4,800,000"],
+        "answer": "c. P2,000,000"
+      },
+      {
+        "question": "JORDAN Company reported the following information as of December 31, 2023:\nBalance per general ledger P2,800,000\nUtilities of the Company directly paid by the bank 150,000\nNotes receivable of the Company collected by the bank - 300,000\nDeposits in transit 420,000\nOutstanding checks 280,000\nIn addition, a check for P120,000 was recorded by the Company as P12,000.\nAdjusted cash in bank balance shall be determined as",
+        "choices": ["a. P2,918,000","b. P2,702,000","c. P3,058,000","d. P2,842,000"],
+        "answer": "d. P2,842,000"
+      },
+      {
+        "question": "Unadjusted cash in bank per bank statement shall be determined as follows:",
+        "choices": ["a. P2,918,000","b. P2,702,000","c. P3,058,000","d. P2,842,000"],
+        "answer": "b. P2,702,000"
+      },
+      {
+        "question": "For the month of September 2023, SYLVIA Company received its bank statement showing a balance of P1,800,000. Based on its general ledger, cash in bank has a balance of P1,251,000. Upon comparing the receipts and disbursements in the bank statement and its general ledger, it noted several differences. In addition, deposits in transit and outstanding checks amounted to P400,000 and P520,000, respectively. The adjusted cash in bank balance shall be determined as",
+        "choices": ["a. P1,960,000","b. P2,760,000","c. P2,160,000","d. P2,360,000"],
+        "answer": "c. P2,160,000"
+      },
+      {
+        "question": "ELENA Company gathered the following information in relation to its bank reconciliation for the month of December 2023 (various reconciling items listed). From this information, the adjusted cash in bank balance shall be determined as",
+        "choices": ["a. P3,672,000","b. P3,602,000","c. P3,472,000","d. P3,802,000"],
+        "answer": "c. P3,472,000"
+      },
+      {
+        "question": "From this information, the unadjusted cash in bank balance shall be determined as",
+        "choices": ["a. P3,672,000","b. P3,602,000","c. P3,472,000","d. P3,802,000"],
+        "answer": "d. P3,802,000"
+      },
+      {
+        "question": "When preparing for its bank reconciliation as of December 31, 2023, the bank statement of ADAMITE Company reported a balance of P7,470,000 with several reconciling items. Determine the unadjusted balance per books as of December 31, 2023.",
+        "choices": ["a. P6,910,000","b. P7,114,000","c. P7,030,000","d. P6,994,000"],
+        "answer": "a. P6,910,000"
+      },
+      {
+        "question": "WENDY Company reported cash in bank in its general ledger amounting to P800,000 while its bank statement indicated P730,000. Several reconciling items exist. The adjusted amount of cash in bank balance shall be",
+        "choices": ["a. P744,000","b. P846,000","c. P790,000","d. P656,000"],
+        "answer": "d. P656,000"
+      },
+      {
+        "question": "The amount of NSF check shall be determined as",
+        "choices": ["a. P134,000","b. P143,000","c. P0","d. P214,000"],
+        "answer": "a. P134,000"
+      },
+      {
+        "question": "As of December 31, 2023, MICHAEL Company’s bank account showed P1,260,000 in the bank statement with various reconciling items. Assuming there are no other reconciling items, the adjusted amount of cash in bank balance shall be",
+        "choices": ["a. P1,330,000","b. P1,456,000","c. P1,953,000","d. P2,070,000"],
+        "answer": "a. P1,330,000"
+      },
+      {
+        "question": "The amount of proceeds from the bank’s collection of the Company’s note shall be",
+        "choices": ["a. P228,000","b. P348,000","c. P236,000","d. P252,000"],
+        "answer": "a. P228,000"
+      },
+      {
+        "question": "In comparing its bank statement with a balance of P1,670,000 to its own records, JOHN Company noted several reconciling items. Based on this information, the adjusted cash in bank balance shall be determined as",
+        "choices": ["a. P1,255,000","b. P1,820,000","c. P1,720,000","d. P1,195,000"],
+        "answer": "b. P1,820,000"
+      },
+      {
+        "question": "GEORGE Company reported unadjusted cash in bank balance of P2,740,000 in its general ledger. Upon comparing its records to the bank statement, it found differences in check and deposit amounts as well as outstanding checks. The adjusted cash in bank shall be determined as",
+        "choices": ["a. P3,790,000","b. P3,010,000","c. P2,650,000","d. P2,830,000"],
+        "answer": "b. P3,010,000"
+      },
+      {
+        "question": "At the beginning of November 2023, MARY Company had several outstanding checks, and during the month, additional checks were prepared. The bank statement showed which checks cleared. Based on these data, the amount of outstanding checks shall be",
+        "choices": ["a. P536,000","b. P349,000","c. P654,000","d. P385,000"],
+        "answer": "a. P536,000"
+      }
+    ]
+  }
 }
