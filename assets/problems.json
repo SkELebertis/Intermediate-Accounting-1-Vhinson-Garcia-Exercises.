@@ -1,0 +1,227 @@
+{
+  "chapter1": {
+    "title": "Cash and Cash Equivalents",
+    "problems": [
+      {
+        "scenario": "JAYSON Company reported an unadjusted cash in bank balance of ₱3,500,000 as of December 31, 2023. The following details were provided:\n\n• Customer check of ₱480,000 dated January 2, 2024 was already included in the cash balance.\n• Customer check of ₱350,000 dated December 8, 2023 was included in the cash balance even though it is not yet encashed as of December 31, 2023.\n• Supplier check of ₱400,000 dated November 30, 2023 was already deducted even though the supplier actually encashed it on January 20, 2024.\n• Supplier check of ₱250,000 dated December 28, 2023 was already deducted even though it was given to the supplier only on January 5, 2024.",
+        "questions": [
+          {
+            "question": "What is the correct adjusted cash balance as of December 31, 2023?",
+            "answer": "3270000",
+            "explanation": "Calculation:\nUnadjusted balance: ₱3,500,000\nDeduct post-dated customer check: -₱480,000 (dated 2024)\nAdd back supplier check not yet given: +₱250,000 (not released until 2024)\nNo adjustment needed for properly dated checks\nAdjusted balance: ₱3,270,000"
+          }
+        ],
+        "journal_entries": [
+          {
+            "description": "To adjust for post-dated customer check",
+            "debit": [{"account": "Cash in Bank", "amount": "480000"}],
+            "credit": [{"account": "Accounts Receivable", "amount": "480000"}]
+          },
+          {
+            "description": "To adjust for unreleased supplier check",
+            "debit": [{"account": "Accounts Payable", "amount": "250000"}],
+            "credit": [{"account": "Cash in Bank", "amount": "250000"}]
+          }
+        ]
+      },
+      {
+        "scenario": "PARALUMAN Company reported cash balance of ₱4,600,000 as of December 31, 2023. The following checks were already recorded:\n\n• A check written for ₱190,000 dated February 28, 2023 is yet to be encashed by the payee.\n• A check written for ₱110,000 dated September 28, 2023 is also yet to be encashed by the payee.\n• A check written for ₱280,000 dated January 10, 2024 was already in the possession of the payee as of December 31, 2023.\n• A check received amounting to ₱360,000 dated January 15, 2024.\n• A check received amounting to ₱500,000 dated October 1, 2023.",
+        "questions": [
+          {
+            "question": "What is the correct adjusted cash balance as of December 31, 2023?",
+            "answer": "4,710,000",
+            "explanation": "Calculation:\nUnadjusted balance: ₱4,600,000\nDeduct post-dated received check: -₱360,000 (dated 2024)\nAdd back post-dated written check: +₱280,000 (dated 2024)\nAdd back stale checks written: +₱190,000 (Feb 2023) and +₱110,000 (Sep 2023)\nNote: The October 1, 2023 check received is properly recorded\nAdjusted balance: ₱4,680,000"
+          }
+        ],
+        "journal_entries": [
+          {
+            "description": "To adjust for stale check dated February 28, 2023",
+            "debit": [{"account": "Cash in Bank", "amount": "190000"}],
+            "credit": [{"account": "Other Income", "amount": "190000"}]
+          },
+          {
+            "description": "To adjust for stale check dated September 28, 2023",
+            "debit": [{"account": "Cash in Bank", "amount": "110000"}],
+            "credit": [{"account": "Other Income", "amount": "110000"}]
+          },
+          {
+            "description": "To adjust for post-dated check written",
+            "debit": [{"account": "Accounts Payable", "amount": "280000"}],
+            "credit": [{"account": "Cash in Bank", "amount": "280000"}]
+          },
+          {
+            "description": "To adjust for post-dated check received",
+            "debit": [{"account": "Cash in Bank", "amount": "360000"}],
+            "credit": [{"account": "Accounts Receivable", "amount": "360000"}]
+          }
+        ]
+      },
+      {
+        "scenario": "EDITH Company reported the following information as of December 31, 2023:\n\n• Investment in common shares of another entity amounting to ₱400,000 is expected to be sold next month.\n• Three-year treasury bonds amounting to ₱2,000,000 were acquired on the original date of issue.\n• Five-year treasury bonds amounting to ₱3,000,000 were acquired on November 15, 2023. Maturity date is on February 1, 2024.\n• Redeemable preference shares amounting to ₱1,800,000 were acquired last December 1, 2023. The shares will mature on January 15, 2024.\n• Excess funds of ₱3,500,000 were parked to time deposit on July 1, 2023. The certificate indicated a January 12, 2024 maturity date.",
+        "questions": [
+          {
+            "question": "What is the total amount of cash equivalents?",
+            "answer": "4,800,000",
+            "explanation": "Cash equivalents calculation:\n• Common shares (₱400,000) - NOT a cash equivalent (equity instrument)\n• 3-year treasury bonds (₱2,000,000) - NOT a cash equivalent (original term > 3 months)\n• 5-year treasury bonds (₱3,000,000) - Cash equivalent (near maturity)\n• Redeemable preference shares (₱1,800,000) - Cash equivalent (matures within 3 months)\n• Time deposit (₱3,500,000) - Cash equivalent (matures within 3 months)\nTotal cash equivalents = ₱3,000,000 + ₱1,800,000 + ₱3,500,000 = ₱8,300,000"
+          }
+        ]
+      },
+      {
+        "scenario": "As of December 31, 2023, MANDAUE Company reported the following information:\n\nCash on hand: ₱2,500,000\nChecking account 1 - UBP: ₱4,500,000\nChecking account 2 - UBP: (₱1,200,000)\nChecking account - BPI: (₱700,000)\nSavings account - PNB: ₱2,000,000\nSavings account - BDO: ₱5,500,000\nCommercial papers: ₱1,800,000\nMoney market placements: ₱1,000,000\nTime deposit, 3 months: ₱800,000\nTime deposit, 6 months: ₱1,500,000\n\nAdditional details:\na. Included in the cash on hand balance is a ₱200,000 customer check dated February 14, 2024.\nb. Deducted from checking account 1 - UBP is a ₱300,000 supplier check dated December 20, 2023 that was only given to the payee on January 3, 2024.\nc. Deducted from checking account 1 - UBP is a ₱450,000 supplier check dated December 22, 2023 and was given to the payee on the same date, but was encashed only on January 18, 2024.\nd. Half of the savings account maintained in BDO is for the purchase of inventories for the next three months while the other half is for the marketing employees' travel fund.\ne. The savings account set aside in PNB is for the acquisition of fleet of transportation vehicles for use of its marketing employees.",
+        "questions": [
+          {
+            "question": "What is the total amount of cash and cash equivalents?",
+            "format": "cash_and_cash_equivalents",
+            "answer": "15,000,000",
+            "explanation": "Cash calculation:\nCash on hand: ₱2,500,000 - ₱200,000 (post-dated) = ₱2,300,000\nChecking UBP net: ₱4,500,000 + ₱300,000 (unreleased) - ₱1,200,000 = ₱3,600,000\nChecking BPI: (₱700,000)\nSavings BDO: ₱5,500,000 (both inventory and travel fund are not restricted)\nSavings PNB: ₱0 (restricted for asset acquisition)\n\nCash equivalents:\nCommercial papers: ₱1,800,000\nMoney market: ₱1,000,000\nTime deposit (3 months): ₱800,000\nTime deposit (6 months): ₱0 (original term > 3 months)\n\nTotal = ₱11,650,000"
+          }
+        ],
+        "journal_entries": [
+          {
+            "description": "To adjust for post-dated customer check",
+            "debit": [{"account": "Cash in Hand", "amount": "200000"}],
+            "credit": [{"account": "Accounts Receivable", "amount": "200000"}]
+          },
+          {
+            "description": "To adjust for unreleased supplier check",
+            "debit": [{"account": "Accounts Payable", "amount": "300000"}],
+            "credit": [{"account": "Cash in Bank - UBP", "amount": "300000"}]
+          }
+        ]
+      }
+  ,
+  {
+        "scenario": "SORSOGON Company reported the following items as of December 31, 2023:\n\n- Cash on hand: ₱2,800,000\n- Cash in bank: ₱6,060,000\n- Post-dated customer check included in cash on hand: ₱550,000\n- Post-dated supplier check reflected in cash in bank: ₱320,000\n- 2023-dated unencashed supplier check reflected in cash in bank: ₱260,000\n- 2023-dated unreleased supplier check reflected in cash in bank: ₱460,000\n- Petty cash (including ₱70,000 vouchers and ₱20,000 employee check): ₱200,000\n- Advances to employees: ₱1,400,000\n- Gift certificates: ₱80,000\n- Travel fund already disbursed to marketing employees: ₱600,000\n- Payroll fund not yet included in cash in bank balance: ₱1,000,000\n- Bond sinking fund (restricted, liability maturing 2028): ₱3,000,000\n- Investment in 5-year government bonds acquired two months before maturity: ₱2,000,000\n\nRequired: From this information, determine the amount of cash and cash equivalents.",
+        "questions": [
+          {
+            "question": "What is the total amount of cash and cash equivalents as of December 31, 2023?",
+            "format": "cash_and_cash_equivalents",
+            "answer": "12,220,000",
+            "explanation": "Assumptions noted below. Calculation (summary):\nAdjusted cash on hand = ₱2,800,000 - ₱550,000 (post-dated customer check) = ₱2,250,000\nAdjusted cash in bank = ₱6,060,000 + ₱320,000 (post-dated supplier check added back) + ₱260,000 (unencashed supplier check added back) + ₱460,000 (unreleased supplier check added back) + ₱1,000,000 (payroll fund not yet included) = ₱8,100,000\nPetty cash (included / available) = ₱200,000\nTotal cash = ₱2,250,000 + ₱8,100,000 + ₱200,000 = ₱10,550,000\nCash equivalents = investment near maturity ₱2,000,000\nCash and cash equivalents = ₱10,550,000 + ₱2,000,000 = ₱12,550,000"
+          }
+        ],
+        "journal_entries": [
+          {
+            "description": "Remove post-dated customer check incorrectly included in cash on hand",
+            "debit": [{"account": "Accounts Receivable", "amount": "550000"}],
+            "credit": [{"account": "Cash in Hand", "amount": "550000"}]
+          },
+          {
+            "description": "Restore cash for supplier check that was deducted but is post-dated",
+            "debit": [{"account": "Cash in Bank", "amount": "320000"}],
+            "credit": [{"account": "Accounts Payable", "amount": "320000"}]
+          },
+          {
+            "description": "Restore cash for unencashed supplier check reflected in bank (add back)",
+            "debit": [{"account": "Cash in Bank", "amount": "260000"}],
+            "credit": [{"account": "Accounts Payable", "amount": "260000"}]
+          },
+          {
+            "description": "Restore cash for unreleased supplier check reflected in bank (add back)",
+            "debit": [{"account": "Cash in Bank", "amount": "460000"}],
+            "credit": [{"account": "Accounts Payable", "amount": "460000"}]
+          }
+        ]
+      },
+      {
+        "scenario": "KIMBERLY Company petty cash transactions (Nov 1, 2023 to Jan 25, 2024):\n\n- Nov 1: Established petty cash fund ₱30,000\n- Nov 5: Paid ₱8,000 transportation of messengers\n- Nov 12: Paid ₱10,000 office supplies\n- Nov 28: Paid ₱5,000 miscellaneous expenses\n- Nov 30: Replenished the petty cash fund and increased it to ₱40,000\n- Dec 8: Paid ₱12,000 repair expense\n- Dec 20: Paid ₱15,000 representation/treats\n- Jan 10: Paid ₱11,000 transportation of messengers\n- Jan 25: Petty cash replenished\n\nRequired: Prepare the journal entries using (a) the imprest fund system; and (b) the fluctuating fund system.",
+        "questions": [
+          {
+            "question": "Prepare the journal entries under the imprest fund system (establishment, replenishments and increases).",
+            "answer": "see_journal_entries",
+            "explanation": "Imprest entries: establishment and replenishments are recorded when cash is replenished or fund increased. Expenses are recorded at replenishment by debiting expense accounts and crediting cash in bank."
+          },
+          {
+            "question": "Prepare the journal entries under the fluctuating fund system (record expenses when paid from the fund and replenishments).",
+            "answer": "see_journal_entries",
+            "explanation": "Fluctuating entries: each petty payment is recorded as expense with credit to petty cash; replenishments transfer cash from bank to petty cash."
+          }
+        ],
+        "journal_entries": [
+          {
+            "description": "Imprest system — Nov 1, 2023: Establish petty cash fund",
+            "date": "2023-11-01",
+            "debit": [{"account": "Petty Cash Fund", "amount": "30000"}],
+            "credit": [{"account": "Cash in Bank", "amount": "30000"}]
+          },
+          {
+            "description": "Imprest system — Nov 30, 2023: Replenish and increase fund to ₱40,000 (record expenses paid from fund Nov 5, 12, 28 and increase)",
+            "date": "2023-11-30",
+            "debit": [
+              {"account": "Transportation Expense", "amount": "8000"},
+              {"account": "Office Supplies Expense", "amount": "10000"},
+              {"account": "Miscellaneous Expense", "amount": "5000"},
+              {"account": "Petty Cash Fund", "amount": "10000"}
+            ],
+            "credit": [{"account": "Cash in Bank", "amount": "33000"}]
+          },
+          {
+            "description": "Imprest system — Jan 25, 2024: Replenish to cover Dec 8, Dec 20 and Jan 10 payments",
+            "date": "2024-01-25",
+            "debit": [
+              {"account": "Repair Expense", "amount": "12000"},
+              {"account": "Representation Expense", "amount": "15000"},
+              {"account": "Transportation Expense", "amount": "11000"}
+            ],
+            "credit": [{"account": "Cash in Bank", "amount": "38000"}]
+          },
+          {
+            "description": "Fluctuating system — Nov 1, 2023: Establish petty cash fund",
+            "date": "2023-11-01",
+            "debit": [{"account": "Petty Cash Fund", "amount": "30000"}],
+            "credit": [{"account": "Cash in Bank", "amount": "30000"}]
+          },
+          {
+            "description": "Fluctuating system — Nov 5, 2023: Payment from fund (record expense)",
+            "date": "2023-11-05",
+            "debit": [{"account": "Transportation Expense", "amount": "8000"}],
+            "credit": [{"account": "Petty Cash Fund", "amount": "8000"}]
+          },
+          {
+            "description": "Fluctuating system — Nov 12, 2023: Payment from fund (record expense)",
+            "date": "2023-11-12",
+            "debit": [{"account": "Office Supplies Expense", "amount": "10000"}],
+            "credit": [{"account": "Petty Cash Fund", "amount": "10000"}]
+          },
+          {
+            "description": "Fluctuating system — Nov 28, 2023: Payment from fund (record expense)",
+            "date": "2023-11-28",
+            "debit": [{"account": "Miscellaneous Expense", "amount": "5000"}],
+            "credit": [{"account": "Petty Cash Fund", "amount": "5000"}]
+          },
+          {
+            "description": "Fluctuating system — Nov 30, 2023: Replenish and increase fund to ₱40,000 (restore payments and add increase)",
+            "date": "2023-11-30",
+            "debit": [{"account": "Petty Cash Fund", "amount": "33000"}],
+            "credit": [{"account": "Cash in Bank", "amount": "33000"}]
+          },
+          {
+            "description": "Fluctuating system — Dec 8, 2023: Payment from fund (record expense)",
+            "date": "2023-12-08",
+            "debit": [{"account": "Repair Expense", "amount": "12000"}],
+            "credit": [{"account": "Petty Cash Fund", "amount": "12000"}]
+          },
+          {
+            "description": "Fluctuating system — Dec 20, 2023: Payment from fund (record expense)",
+            "date": "2023-12-20",
+            "debit": [{"account": "Representation Expense", "amount": "15000"}],
+            "credit": [{"account": "Petty Cash Fund", "amount": "15000"}]
+          },
+          {
+            "description": "Fluctuating system — Jan 10, 2024: Payment from fund (record expense)",
+            "date": "2024-01-10",
+            "debit": [{"account": "Transportation Expense", "amount": "11000"}],
+            "credit": [{"account": "Petty Cash Fund", "amount": "11000"}]
+          },
+          {
+            "description": "Fluctuating system — Jan 25, 2024: Replenish fund to restore payments",
+            "date": "2024-01-25",
+            "debit": [{"account": "Petty Cash Fund", "amount": "38000"}],
+            "credit": [{"account": "Cash in Bank", "amount": "38000"}]
+          }
+        ]
+      }
+    ]
+  }
+}
+

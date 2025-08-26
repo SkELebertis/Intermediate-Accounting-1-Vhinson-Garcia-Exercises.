@@ -29,145 +29,237 @@
     { "question": "If a customer’s check in the possession of the entity becomes stale, it shall be excluded from the cash balance and included in the accounts receivable balance.", "answer": true },
     { "question": "An entity invested its excess funds to a treasury bill with an original term of one year but with 2 months left before its maturity. This investment cannot be considered as cash equivalent.", "answer": false }
   ],
+  "multiple_choice_problems": [
+  {
+    "question": "As of December 31, 2023, ALABEL Company reported the following details: Customer check of P450,000 was already included in the cash on hand balance even though it is dated January 22, 2024. Supplier check of P600,000 dated December 10, 2023 was already deducted from the cash in bank balance, even it was only given to the payee on January 4, 2024. Cash on hand and cash in bank as of December 31, 2023 amounted to P2,200,000 and P3,100,000, respectively. From this information, determine the adjusted cash balance as of December 31, 2023.",
+    "choices": [
+      "a. P5,900,000",
+      "b. P5,300,000",
+      "c. P5,450,000",
+      "d. P4,850,000"
+    ],
+    "answer": "c. P5,450,000"
+  },
+  {
+    "question": "MAGALLANES Company is in the process of determining its cash balance to be presented in its December 31, 2023 statement of financial position. The following information was gathered related to some of the components of the P3,800,009 unadjusted cash balance: Postage stamps P100,000; Office supplies P400,000; Customer check dated December 10, 2023 P60,000; Customer check dated January 8, 2024 P240,000; Gift certificates P350,000. In addition, the following supplier's checks were already deducted from the unadjusted cash balance: P90,000 check dated December 1, 2023 and given to payee on December 20, 2023; P75,000 check dated January 3, 2024 and given to payee on December 29, 2023. Based on this information, the adjusted cash balance should be",
+    "choices": [
+      "a. P2,875,000",
+      "b. P2,785,000",
+      "c. P2,975,000",
+      "d. P2,725,000"
+    ],
+    "answer": "b. P2,785,000"
+  },
+  {
+    "question": "ROOSEVELT Company reported the following information as of December 31, 2023: Cash on hand P1,600,000; Checking account no. 1 - BDO 2,100,000; Checking account no. 2 - BDO (2,400,000); Checking account no. 1 - PNB 1,400,000; Checking account no. 2 - PNB (300,000); Checking account - BPI (640,000); Checking account - UBP (payroll fund) 1,800,000; Savings account - UCPB (maintained as dividend fund) 2,200,000; Savings account - Banco Filipino, a closed bank 1,750,000; Time deposit - UCPB, one year 3,000,000; IOU from employees 730,000; Traveler's check received not yet included in cash on hand 140,000; Manager's check received not yet included in cash on hand 220,000; Bond sinking fund, to be disbursed in 2030 2,000,000. The correct cash and cash equivalent balance from this information shall be",
+    "choices": [
+      "a. P8,700,000",
+      "b. P6,700,000",
+      "c. P7,060,000",
+      "d. P4,020,000"
+    ],
+    "answer": "c. P7,060,000"
+  },
+  {
+    "question": "As of December 31, 2023, KATIPUNAN Company reported the following information: Cash on hand P600,000; Cash in bank - PNB 3,000,000; Cash in bank - UBP 4,200,000; Petty cash fund in branch A 50,000; Petty cash fund in branch B 50,000. As of the same date, the Company also has existing borrowings from PNB and UBP, where it is required to have compensating balances amounting to P400,000 and P550,000, respectively. Compensating balance in UBP is legally restricted. On the other hand, all of the P38,000 vouchers in petty cash fund in branch A have been fully replenished. However, petty cash fund in branch B was not replenished but is composed of the following: P10,000 coins and currencies, P15,000 check of petty cash custodian representing December 2023 salary and P23,000 vouchers. Based on these data, the correct cash balance shall be",
+    "choices": [
+      "a. P7,875,000",
+      "b. P6,925,000",
+      "c. P7,325,000",
+      "d. P7,837,000"
+    ],
+    "answer": "c. P7,325,000"
+  },
+  {
+    "question": "FRANKLIN Company generated the following unadjusted general ledger account balances as of December 31, 2023: Cash in bank P1,700,000; Petty cash fund P30,000; Cash equivalents P3,500,000; Accounts receivable P4,000,000. The following supplier’s checks were already deducted from the cash in bank balance: A check for P140,000 dated December 23, 2023 was given to payee on January 2, 2024; A check for P200,000 dated December 1, 2023 was given to payee on November 10, 2023. The check is yet to be encashed at the end of 2023. Upon inspection of the petty cash fund, it consisted of the following components: P5,000 coins and currencies; P14,000 check of the petty cash custodian representing her salary; P11,000 petty cash vouchers. The cash equivalents balance is composed of the following: P500,000 six-month time deposit; P2,000,000 two-month commercial papers; P800,000 five-year treasury bonds acquired two months before maturity; P200,000 one-year treasury bills acquired on original issue date. Accounts receivable included the following amounts: P600,000 account with related customer check dated December 29, 2023 (not yet encashed); P450,000 account with related customer check dated January 10, 2024 (not yet encashed). From the above information, determine the adjusted cash and cash equivalents",
+    "choices": [
+      "a. P5,745,000",
+      "b. P5,245,000",
+      "c. P4,659,000",
+      "d. P5,259,000"
+    ],
+    "answer": "d. P5,259,000"
+  },
+  {
+    "question": "As of December 31, 2023, KRAKATOA Company invested its excess cash funds to the following securities: Commercial paper of P4,000,000 with six-month term and maturity date of February 15, 2024 (acquired on December 15, 2023); Money market placements of P3,000,000 with nine-month term and maturity date of January 31, 2024 (acquired on September 1, 2023); Treasury bills of P1,200,000 with six-month term and maturity date of May 1, 2024 (acquired on December 1, 2023); Treasury bonds of P2,000,000 with ten-year term and maturity date of March 31, 2024 (acquired on December 31, 2023). Based on the above information, cash equivalents shall have a balance of",
+    "choices": [
+      "a. P4,200,000",
+      "b. P6,000,000",
+      "c. P0",
+      "d. P10,200,000"
+    ],
+    "answer": "b. P6,000,000"
+  },
+  {
+    "question": "TAMBORA Company reported the following information as of December 31, 2023: Cash on hand P1,500,000; Cash in bank - UCPB (250,000); Cash in bank - PNB 320,000; Cash in bank - BDO 750,000; Savings account - UBP (for the purchase of inventories) 1,100,000; Savings account - Maybank (for the purchase of land) 2,300,000; Bond sinking fund - required by contract; related liability will mature on June 30, 2024 P2,000,000; Bond sinking fund - voluntarily established; related liability will mature on September 30, 2024 P3,000,000; Savings dollar account - BDO $10,000 (USD1 = PHP52 at year-end). In addition, the following checks were deducted from the indicated bank accounts: From UCPB account, an unreleased check of P800,000 dated December 28, 2023; From PNB account, a P300,000 check dated January 12, 2024. Based on the above information, the cash balance to be reported shall be",
+    "choices": [
+      "a. P8,040,000",
+      "b. P8,020,000",
+      "c. P10,040,000",
+      "d. P10,020,000"
+    ],
+    "answer": "a. P8,040,000"
+  },
+  {
+    "question": "As of December 31, 2023, ALEXIS Company reported unadjusted cash balance of P4,500,000. Additional data were provided as follows: Customer check of P240,000 dated January 10, 2024 was already included in the cash balance; Customer check of P300,000 dated December 31, 2023 was not included in the cash balance; Cash receipts from January 1-15, 2024 of P800,000 and cash disbursements of P350,000 during the same period were recorded as if they occurred during 2023; Supplier check of P160,000 dated December 31, 2023 was not deducted from this balance since this was given to the payee only on January 15, 2024. Determine the adjusted cash balance as of December 31, 2023.",
+    "choices": [
+      "a. P4,270,000",
+      "b. P3,820,000",
+      "c. P3,660,000",
+      "d. P4,110,000"
+    ],
+    "answer": "d. P4,110,000"
+  },
+  {
+    "question": "PATRICIA Company had the following information as of December 31, 2023: Cash on hand P600,000; Change fund P80,000; Pension fund P2,400,000; Dividend fund P1,000,000. From this information, the amount to be included in the cash and cash equivalents should be",
+    "choices": [
+      "a. P680,000",
+      "b. P1,680,000",
+      "c. P4,080,000",
+      "d. P600,000"
+    ],
+    "answer": "b. P1,680,000"
+  },
+  {
+    "question": "As of December 31, 2023, ANTOINETTE Company had the following information related to its cash balance: Cash on hand P700,000; Treasury bills, acquired 6 months before maturity P200,000; Cash in bank - savings account for general purpose P1,500,000; Cash in bank - demand deposit account P900,000; Cash in bank - savings account for payroll purposes P1,000,000; Bond sinking fund, related liability will mature in 2025 P2,000,000; Held for trading investments P1,200,000. Based on this information, the amount of cash and cash equivalents shall be",
+    "choices": [
+      "a. P3,400,000",
+      "b. P4,100,000",
+      "c. P5,300,000",
+      "d. P6,100,000"
+    ],
+    "answer": "b. P4,100,000"
+  }
+],
   "multiple_choice": [
   {
     "question": "Given the following items, which of them is/are included in the total cash balance? I. Post-dated customer check II. Post-dated supplier check",
     "choices": ["a. I only", "b. II only", "c. Both I and II", "d. Neither I nor II"],
-    "answer": "b"
+    "answer": "b. II only"
   },
   {
     "question": "The following may be included in the cash balance, except",
     "choices": ["a. Foreign currency", "b. Coins", "c. Deposit maintained in a closed bank", "d. Check from customer"],
-    "answer": "c"
+    "answer": ". Deposit maintained in a closed bank"
   },
   {
     "question": "Upon the receipt of a post-dated check from a customer, an entity shall do which of the following?",
     "choices": ["a. Reduce the accounts receivable from the customer", "b. Increase the cash on hand balance", "c. Record revenue equal to the amount of the check", "d. Do not record the check"],
-    "answer": "d"
+    "answer": "d. Do not record the check"
   },
   {
     "question": "The following checks received shall be included in the cash balance, except",
     "choices": ["a. Checkmate", "b. Customer’s check", "c. Traveler’s check", "d. Manager’s check"],
-    "answer": "a"
+    "answer": "a. Checkmate"
   },
   {
     "question": "TULIP Company gave a check to LILY Company for the services performed by the latter. The check indicated that LILY Company shall encash the check in BDI Bank. Based on this information, which of the following is incorrect?",
     "choices": ["a. TULIP Company is the maker of the check", "b. LILY Company is the payee", "c. BDI Bank is the drawee", "d. None of the above"],
-    "answer": "d"
+    "answer": "d. None of the above"
   },
   {
     "question": "Few days before the reporting date, an entity made and recorded a check dated in the succeeding period to one of its suppliers. In this case, the entity shall",
     "choices": ["a. Add back the amount of the check to the accounts receivable balance", "b. Deduct the amount of the check from the accounts payable balance", "c. Add back the amount of the check to the cash in bank balance", "d. Do nothing"],
-    "answer": "c"
+    "answer": "c. Add back the amount of the check to the cash in bank balance"
   },
   {
     "question": "An entity made and recorded a check that is dated before the reporting date. In this case, the entity shall",
     "choices": ["a. Add back the amount of the check to the accounts receivable balance", "b. Deduct the amount of the check from the accounts payable balance", "c. Add back the amount of the check to the cash in bank balance", "d. Do nothing"],
-    "answer": "d"
+    "answer": "d. Do nothing"
   },
   {
     "question": "Gift certificates shall be reported as",
     "choices": ["a. Part of cash and cash equivalents since these can be used to purchase limited selection of goods or services", "b. Part of prepayments", "c. Either a or b depending on the entity's accounting policy", "d. Half cash and cash equivalent, half prepayments"],
-    "answer": "b"
+    "answer": "b. Part of prepayments"
   },
   {
     "question": "At the end of 2023, an entity had US dollars in its cash on hand. In this case, the amount in US dollars shall be",
     "choices": ["a. Translated using the exchange rate on the date of entity's receipt", "b. Translated using the exchange rate on the reporting date", "c. Translated using whichever rate is higher", "d. Translated using whichever rate is lower"],
-    "answer": "b"
+    "answer": "b. Translated using the exchange rate on the reporting date"
   },
   {
     "question": "As of December 31, 2023, an entity reported ₱800,000 positive balance in its checking account no. 1 in Buko Bank and ₱500,000 overdraft in its checking account no. 2 in the same bank. Which of the following correctly states the required reporting of these amounts?",
     "choices": ["a. ₱800,000 positive balance – cash & cash equivalents; ₱500,000 overdraft – current liability", "b. ₱500,000 overdraft – cash & cash equivalents; ₱800,000 positive balance – current liability", "c. Net amount of ₱300,000 as part of cash & cash equivalents", "d. Net amount of ₱300,000 as current liability"],
-    "answer": "c"
+    "answer": "c. Net amount of ₱300,000 as part of cash & cash equivalents"
   },
   {
     "question": "As of December 31, 2023, an entity reported ₱700,000 positive balance in its checking account no. 1 in Buko Bank and ₱450,000 overdraft in its checking account no. 1 in Atis Bank. Which of the following correctly states the required reporting of these amounts?",
     "choices": ["a. ₱700,000 positive balance – cash & cash equivalents; ₱450,000 overdraft – current liability", "b. ₱450,000 overdraft – cash & cash equivalents; ₱700,000 positive balance – current liability", "c. Net amount of ₱250,000 as part of cash & cash equivalents", "d. Net amount of ₱250,000 as current liability"],
-    "answer": "a"
+    "answer": "a. ₱700,000 positive balance – cash & cash equivalents"
   },
   {
     "question": "Same as Question 11, but assume overdraft amount is part of the entity’s cash management. Which of the following is correct?",
     "choices": ["a. ₱700,000 positive balance – cash & cash equivalents; ₱450,000 overdraft – current liability", "b. ₱450,000 overdraft – cash & cash equivalents; ₱700,000 positive balance – current liability", "c. Net amount of ₱250,000 as part of cash & cash equivalents", "d. Net amount of ₱250,000 as current liability"],
-    "answer": "c"
+    "answer": "c. Net amount of ₱250,000 as part of cash & cash equivalents"
   },
   {
     "question": "An entity reported the following deposits with a bank: I. Savings deposit set aside for the future purchase of building II. Demand deposit from which the payroll of its employees is deducted. Which of these is/are includible in the cash balance?",
     "choices": ["a. I only", "b. II only", "c. Both I and II", "d. Neither I nor II"],
-    "answer": "b"
+    "answer": "b. II only"
   },
   {
     "question": "Generally, which of the following is not a characteristic of cash and cash equivalents?",
     "choices": ["a. Generally unrestricted as to use", "b. Measured at their fair values", "c. May include items in addition to coins and currencies on hand", "d. Most liquid among all the assets of an entity"],
-    "answer": "b"
+    "answer": "b. Measured at their fair values"
   },
   {
     "question": "The following items are generally considered as part of cash, except",
     "choices": ["a. Gift certificates purchased with no expiry date", "b. Foreign currency on hand", "c. Customer's check", "d. Money order"],
-    "answer": "a"
+    "answer": "a. Gift certificates purchased with no expiry date"
   },
   {
     "question": "All of these items should not form part of an entity’s cash, except",
     "choices": ["a. An I.O.U. from an entity’s finance officer", "b. Advances to employees", "c. Traveler’s check", "d. Petty cash vouchers"],
-    "answer": "c"
+    "answer": "c. Traveler’s check"
   },
   {
     "question": "A deposit in a closed bank should be classified as",
     "choices": ["a. Part of cash and cash equivalents at its net realizable value", "b. Part of other assets at its net realizable value", "c. Either cash & cash equivalents or other assets depending on entity’s policy", "d. Neither cash & cash equivalents nor other assets"],
-    "answer": "b"
+    "answer": "b. Part of other assets at its net realizable value"
   },
   {
     "question": "Post-dated checks received from customers should",
     "choices": ["a. Be excluded from the cash balance", "b. Be included in other assets balance", "c. Be deducted from accounts receivable balance", "d. Be deducted from accounts payable balance"],
-    "answer": "a"
+    "answer": "a. Be excluded from the cash balance"
   },
   {
     "question": "The three-month rule for cash equivalents shall be counted from ______ until its maturity date.",
     "choices": ["a. The original date of issuance of the related security", "b. The relevant reporting date", "c. The date of purchase of the related security", "d. The latest of the above dates"],
-    "answer": "c"
+    "answer": "c. The date of purchase of the related security"
   },
   {
     "question": "The following should form part of an entity’s cash, except for",
     "choices": ["a. Customer check not yet encashed in the bank for the last 18 months", "b. Check issued dated January 25 of the next year", "c. Coins and currencies in petty cash fund", "d. Cash in bank"],
-    "answer": "a"
+    "answer": "a. Customer check not yet encashed in the bank for the last 18 months"
   },
   {
     "question": "Generally, the following funds are part of cash, except for",
     "choices": ["a. Fund earmarked for the purchase of warehouse", "b. Dividend fund", "c. Salary fund", "d. Tax fund"],
-    "answer": "a"
+    "answer": "a. Fund earmarked for the purchase of warehouse"
   },
   {
     "question": "Which of the following items is considered as cash equivalent?",
     "choices": ["a. Checking account in a bank", "b. Time deposit with remaining maturity of one year", "c. 10-year treasury bonds purchased two months before maturity date", "d. 5-year treasury bonds purchased five months before maturity date"],
-    "answer": "c"
+    "answer": "c. 10-year treasury bonds purchased two months before maturity date"
   },
   {
     "question": "All of the following are considered as cash equivalents, except",
     "choices": ["a. Treasury bills with original term of one year but acquired three months before maturity date", "b. Redeemable preference shares with original term of four years but acquired two months before maturity", "c. Investment in ordinary shares of another entity expected to be sold within the next two weeks", "d. All of the above are considered as cash equivalents"],
-    "answer": "c"
+    "answer": "c. Investment in ordinary shares of another entity expected to be sold within the next two weeks"
   },
   {
     "question": "The amount to be included in the cash balance on account of the petty cash fund shall include the following, except",
     "choices": ["a. Coins", "b. Currencies", "c. Accommodation check that is dated on or before the reporting date", "d. All of the above are included in the cash balance on account of the petty cash fund"],
-    "answer": "d"
+    "answer": "d. All of the above are included in the cash balance on account of the petty cash fund"
   },
   {
     "question": "Petty cash fund may be used for any of the following, except",
     "choices": ["a. Payment of outstanding purchases from suppliers", "b. Payment of transportation of the entity’s messengers", "c. Payment for snacks served to a client", "d. Payment for small items of office supplies"],
-    "answer": "a"
+    "answer": "a. Payment of outstanding purchases from suppliers"
   }
 ],
   "problems": [
     {
-      "scenario": "PARALUMAN Company adjusting entries as of Dec. 31, 2023:",
-      "table": [
-        ["Cash", "190,000"],
-        ["Accounts payable", "190,000"],
-        ["Cash", "280,000"],
-        ["Accounts payable", "280,000"],
-        ["Accounts receivable", "360,000"],
-        ["Cash", "360,000"]
-      ],
-      "answer": "4710000"
       }
     ]
   }
