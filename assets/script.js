@@ -643,11 +643,16 @@ function showScoreSummary(questions) {
         ca.className = 'correct-answer';
         // if correct is missing or generic, try to lookup from questionsData
         let correct = res.correct;
-        if (!correct || String(correct).trim() === '') {
+        // treat only null/undefined/empty-string as missing (so boolean false is preserved)
+        if (correct === null || correct === undefined || String(correct).trim() === '') {
           const looked = lookupCorrectAnswer(res.question);
-          if (looked) correct = looked;
+          if (looked !== null && looked !== undefined) correct = looked;
         }
-        ca.innerText = `Correct answer: ${correct || '<unknown>'}`;
+        // normalize boolean answers for display
+        let displayCorrect;
+        if (typeof correct === 'boolean') displayCorrect = correct ? 'True' : 'False';
+        else displayCorrect = (correct || '<unknown>');
+        ca.innerText = `Correct answer: ${displayCorrect}`;
         item.appendChild(ca);
       }
       out.appendChild(item);
